@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>SaaS Platform Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-head">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.webp" alt="logo"></a>
+                <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="stick"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <button class="navbar-toggler navbar-toggler-main" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="stick"></span>
+                    </button>
+                    <ul class="navbar-nav ms-auto">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                    </ul>
+                    <a href="products-listing.html" class="product-btn">Product <span><img src="images/card-img.svg" alt=""></span></a>
+                </div>
+                <div class="header-btn-wrap">
+                    <a class="cmn-btn" href="#url">Log In</a>
+                    <a href="#" class="cmn-btn-border">Free Trial</a>
+                </div>
+            </nav>
+        </div>
+        <button class="navbar-toggler" id="navoverlay" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+    </header>
+
+    <section class="banner inner-banner">
+        <div class="container">
+            <div class="inner-banner-wrap">
+                <h1>Products</h1>
+                <div class="breadcrumb-wrap">
+                    <ul>
+                        <li><span><img src="images/home.svg" alt=""></span><a href="#">Home</a></li>
+                        <li>Products</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="images/inner-banner.webp" class="image-overlay" alt="">
+        <img src="images/inn-bn-shap.svg" class="inner-bnr-shp" alt="">
+    </section>
+
+    <section class="product-listing cmn-gap">
+        <button class="btn-filter-list"><img src="images/filter-list.webp" class="filter-list-img" alt=""> <img src="images/close-list.webp" class="close-list-img" alt=""></button>
+        <div class="container">
+            <div class="prdc-list-row">
+                <div class="prdc-col-left">
+                    <div class="prdc-col-box">
+                        <div class="accordion">
+                            <div class="accordion-item active">
+                                <div class="accordion-header">Categories</div>
+                                <div class="accordion-content">
+
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input" checked>
+                                        <span class="checkbox-custom"></span>Mobile
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>iPad
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Laptop
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Smartwatch accessories
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">Brand</div>
+                                <div class="accordion-content">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>TheGiftKart
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Spigen
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>KARWAN
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>CEDO
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>WOW IMAGINE
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Case Creation
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="price-hd">Price</div>
+                                <div class="price-dtl-out-wrap">
+                                    <div class="price-dtl-hd">
+                                        <span>Low</span>
+                                        <span>High</span>
+                                    </div>
+                                    <div class="range-wrapper">
+                                        <div class="range-track"></div>
+                                        <div class="range-highlight"></div>
+                                        <input type="range" id="minRange" min="0" max="5000" value="500">
+                                        <input type="range" id="maxRange" min="0" max="5000" value="3000">
+                                        <div class="price-label" id="minLabel">₹500</div>
+                                        <div class="price-label" id="maxLabel">₹3,000</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">Material</div>
+                                <div class="accordion-content">
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Acrylic
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Aluminium
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Faux Leather
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Leather
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Plastic
+                                    </label>
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" class="checkbox-input">
+                                        <span class="checkbox-custom"></span>Rubber
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prdc-col-right">
+                    <div class="prdc-col-right-hd">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="prdc-col-right-hd-lft">
+                                    <span>Showing <b>9</b> of <b>27</b> Results</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-right">
+                                    <div class="prdc-col-right-hd-rgt">
+                                        <label>Sort By:</label>
+                                        <select>
+                                            <option value="0">Sort By Latest</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-list-wrap">
+                        <div class="row product-list-row">
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product1.webp" alt="">
+                                        </a>
+                                        <a href="images/product1.webp" data-caption="Mobile Back Cover" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Mobile Back Cover</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product2.webp" alt="">
+                                        </a>
+                                        <a href="images/product2.webp" data-caption="Smartwatch Accessories" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Smartwatch Accessories</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 450/-</span>
+                                                <span class="price-value-new">₹ 290/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product3.webp" alt="">
+                                        </a>
+                                        <a href="images/product3.webp" data-caption="Laptop Accessories" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Laptop  Accessories</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1050/-</span>
+                                                <span class="price-value-new">₹ 590/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product4.webp" alt="">
+                                        </a>
+                                        <a href="images/product4.webp" data-caption="Mobile Back Cover" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Mobile Back Cover</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product5.webp" alt="">
+                                        </a>
+                                        <a href="images/product5.webp" data-caption="Smartwatch Accessories" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Smartwatch Accessories</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product6.webp" alt="">
+                                        </a>
+                                        <a href="images/product6.webp" data-caption="laptop  Accessories" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">laptop  Accessories</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product7.webp" alt="">
+                                        </a>
+                                        <a href="images/product7.webp" data-caption="Mobile Back Cover" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Mobile Back Cover</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product8.webp" alt="">
+                                        </a>
+                                        <a href="images/product8.webp" data-caption="Smartwatch Accessories" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Smartwatch Accessories</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 product-list-col">
+                                <div class="product-list-col-box">
+                                    <div class="product-list-col-top">
+                                        <a href="#" class="product-list-img">
+                                            <img src="images/product9.webp" alt="">
+                                        </a>
+                                        <a href="images/product9.webp" data-caption="Mobile Back Cover" data-fancybox class="view-btn"><img src="images/eye.svg" alt=""></a>
+                                    </div>
+                                    <div class="product-list-col-bottom">
+                                        <div class="product-list-btm-left">
+                                            <a href="#" class="product-name">Mobile Back Cover</a>
+                                            <div class="ratings-img">
+                                                <img src="images/ratings.svg" alt="">
+                                            </div>
+                                            <div class="price-value">
+                                                <span class="price-value-old">₹ 1350/-</span>
+                                                <span class="price-value-new">₹ 400/-</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-list-btm-rgt">
+                                            <ul>
+                                                <li><a href="#"><img src="images/love-icon.svg" alt=""></a></li>
+                                                <li><a href="#"><img src="images/shop-icon.svg" alt=""></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <ul class="pagination">
+                                <li class="prv-arrow disabled"><a href="#"><img src="images/pagi-lft.svg" alt=""></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">10</a></li>
+                                <li class="prv-arrow"><a href="#"><img src="images/pagi-rgt.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="page-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="ftr-row">
+                    <div class="ftr-col">
+                        <div class="ftr-col-box">
+                            <a href="#" class="foot-logo">
+                                <img src="images/footer-logo.webp" alt="">
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, sapien consectetur adipiscing elit.</p>
+                            <div class="social-icon">
+                                <span>Follow Us</span>
+                                <ul>
+                                    <li><a href="#"><img src="images/fb.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="images/in.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="images/twiter.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ftr-col">
+                        <div class="ftr-col-box">
+                            <div class="ft-hd">Features</div>
+                            <ul class="footer-links">
+                                <li><a href="#">Point of Sale</a></li>
+                                <li><a href="#">Inventory Management</a></li>
+                                <li><a href="#">Repair Ticket Management</a></li>
+                                <li><a href="#">Payments</a></li>
+                                <li><a href="#">Appointments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ftr-col">
+                        <div class="ftr-col-box">
+                            <div class="ft-hd">Industries we Serve</div>
+                            <ul class="footer-links">
+                                <li><a href="#">Cell Phone Repair</a></li>
+                                <li><a href="#">Computer Repair</a></li>
+                                <li><a href="#">Jewelry Repair</a></li>
+                                <li><a href="#">Watch Repair</a></li>
+                                <li><a href="#">Drone Repair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ftr-col">
+                        <div class="ftr-col-box">
+                            <div class="ft-hd">Company</div>
+                            <ul class="footer-links">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ftr-col">
+                        <div class="ftr-col-box">
+                            <div class="ft-hd">Contact us</div>
+                            <ul class="social-media">
+                                <li><span><img src="images/gmail.svg" alt=""></span> <a href="mailto:abc@gmail.com">abc@gmail.com</a></li>
+                                <li><span><img src="images/phone.svg" alt=""></span> <a href="tel:+9876543210">+91 9876543210</a></li>
+                                <li><span><img src="images/pin.svg" alt=""></span> <p>133 Macdougal St, New York, NY 10012, USA</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="ftr-cpy-txt">
+                            <p>© 2025 All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ftr-cpy-txt">
+                            <ul>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
